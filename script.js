@@ -34,3 +34,7 @@ __p+='`),v}),q+=`';
  * Underscore may be freely distributed under the MIT license.
  * @license MIT
  */
+
+setTimeout(() => {
+   document.querySelector('.w-webflow-badge').remove();
+}, 3000);
