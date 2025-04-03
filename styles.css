@@ -2339,7 +2339,8 @@ textarea.w-input, textarea.w-select {
 
 .centered-heading.margin-bottom-32px {
   color: var(--white);
-  margin-bottom: 32px;
+  text-align: left;
+  margin-bottom: 16px;
   font-family: Strretch Sans, sans-serif;
   font-size: 24px;
 }
