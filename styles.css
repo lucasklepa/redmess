@@ -2333,16 +2333,13 @@ textarea.w-input, textarea.w-select {
 }
 
 .centered-heading {
-  text-align: center;
   margin-bottom: 16px;
-}
-
-.centered-heading.margin-bottom-32px {
   color: var(--white);
-  text-align: left;
-  margin-bottom: 16px;
   font-family: Strretch Sans, sans-serif;
   font-size: 24px;
+}
+.centered-heading strong {
+  white-space: nowrap;
 }
 
 .hero-wrapper {
