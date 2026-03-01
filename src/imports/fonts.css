@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'STRRETCH SANS';
+  /* The ../ moves out of 'imports' so it can see the 'assets' folder */
+  src: url('../assets/STRRETCH SANS.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
