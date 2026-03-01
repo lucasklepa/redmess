@@ -1,15 +1,17 @@
 import { useEffect, useState } from "react";
 import svgPaths from "../imports/svg-mia2lkl4th";
 import Frame7 from "../imports/Frame7";
-import imgFotoThresholdedDithered1 from "figma:asset/1bb2b93ca796b15564bd8dff5fdcb2332ee0683a.png";
-import imgPixelTextureBg1 from "figma:asset/4166484cd3a953fff426748408f60accb77fa672.png";
-import imgUntitled13 from "figma:asset/410bb0131791f3dc2392fe74c38e4369e9ea9935.png";
-import imgUntitled14 from "figma:asset/79319b374118f30feb596fcc0fe693e953fe6455.png";
-import imgUntitled15 from "figma:asset/e13c93808054b139cf4ab66144bf4acd0d8b26fc.png";
-import imgRectangle41 from "figma:asset/f6d98f970bf4b87dc09b228191298827486ce6c7.png";
-import imgRectangle42 from "figma:asset/49d03c1ed56c6615e0fd971f9e667533870f6ed0.png";
-import imgRectangle44 from "figma:asset/c8adfa1d39e88e7929765d7f388e07f77ceca601.png";
-import imgAboutPhoto from "figma:asset/7151b447f7f39f03ff4ebd37469a6a9f6f792760.png";
+
+// Corrected relative paths to your local assets folder
+import imgFotoThresholdedDithered1 from "../assets/1bb2b93ca796b15564bd8dff5fdcb2332ee0683a.png";
+import imgPixelTextureBg1 from "../assets/4166484cd3a953fff426748408f60accb77fa672.png";
+import imgUntitled13 from "../assets/410bb0131791f3dc2392fe74c38e4369e9ea9935.png";
+import imgUntitled14 from "../assets/79319b374118f30feb596fcc0fe693e953fe6455.png";
+import imgUntitled15 from "../assets/e13c93808054b139cf4ab66144bf4acd0d8b26fc.png";
+import imgRectangle41 from "../assets/f6d98f970bf4b87dc09b228191298827486ce6c7.png";
+import imgRectangle42 from "../assets/49d03c1ed56c6615e0fd971f9e667533870f6ed0.png";
+import imgRectangle44 from "../assets/c8adfa1d39e88e7929765d7f388e07f77ceca601.png";
+import imgAboutPhoto from "../assets/7151b447f7f39f03ff4ebd37469a6a9f6f792760.png";
 
 export default function App() {
   const [scrollY, setScrollY] = useState(0);
