@@ -1,12 +1,14 @@
 import { useEffect, useState } from "react";
 import svgPaths from "../imports/svg-mia2lkl4th";
 import Frame7 from "../imports/Frame7";
-import imgFotoThresholdedDithered1 from "./image_a3c679.jpg"; // Corrected image import
-import imgPixelTextureBg1 from "figma:asset/8b25ff0125e871e685a790a2e526e12b4c92a502.png";
-import imgRectangle41 from "figma:asset/9452d684afffda48c34f8e218710253fa15e6eab.png";
-import imgRectangle42 from "figma:asset/74e152bdd9ee79785f907cfadaed06d94b50782c.png";
-import imgRectangle44 from "figma:asset/59f424583c29344c175c96c7d98bc8334f68a2b2.png";
-import imgAboutPhoto from "figma:asset/b780750e3db701da62e68ce439d3cf14acc78ee1.png";
+
+// Corrected relative imports pointing to your assets folder
+import imgFotoThresholdedDithered1 from "../assets/1bb2b93ca796b15564bd8dff5fdcb2332ee0683a.png";
+import imgPixelTextureBg1 from "../assets/8b25ff0125e871e685a790a2e526e12b4c92a502.png";
+import imgRectangle41 from "../assets/9452d684afffda48c34f8e218710253fa15e6eab.png";
+import imgRectangle42 from "../assets/74e152bdd9ee79785f907cfadaed06d94b50782c.png";
+import imgRectangle44 from "../assets/59f424583c29344c175c96c7d98bc8334f68a2b2.png";
+import imgAboutPhoto from "../assets/b780750e3db701da62e68ce439d3cf14acc78ee1.png";
 
 export default function App() {
   const [scrollY, setScrollY] = useState(0);
