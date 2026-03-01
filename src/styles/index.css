@@ -1,6 +1,7 @@
-@import './imports/fonts.css'; /* This points to the file you just edited */
+@import './fonts.css'; 
 @import './tailwind.css';
 @import './theme.css';
+
 
 /* 1. Default font */
 body {
