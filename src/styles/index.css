@@ -1,3 +1,20 @@
 @import './fonts.css';
 @import './tailwind.css';
 @import './theme.css';
+
+/* 1. Set the default font for the entire site to Inter */
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* 2. Set the custom font ONLY for h1 elements */
+h1 {
+  font-family: 'STRRETCH SANS', sans-serif !important;
+  text-transform: uppercase;
+  line-height: 1.1;
+}
+
+/* 3. Keep other headings clean with Inter */
+h2, h3, h4, p, span, button {
+  font-family: 'Inter', sans-serif;
+}
