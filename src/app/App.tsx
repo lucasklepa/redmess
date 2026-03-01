@@ -81,7 +81,8 @@ export default function App() {
       >
         <div className="max-w-7xl mx-auto px-4 md:px-8">
           <div className="flex items-center justify-center h-16">
-            <div className="hidden md:flex items-center gap-8">
+            {/* Added font class to Nav items below */}
+            <div className="hidden md:flex items-center gap-8 font-['STRRETCH SANS',sans-serif]">
               <button
                 onClick={() => scrollToSection("releases")}
                 className="text-[#e8dedd] hover:text-[#cf6857] transition-colors text-sm uppercase tracking-wider"
@@ -158,7 +159,7 @@ export default function App() {
           </div>
 
           {mobileMenuOpen && (
-            <div className="md:hidden py-4 border-t border-[#cf6857]/30">
+            <div className="md:hidden py-4 border-t border-[#cf6857]/30 font-['STRRETCH SANS',sans-serif]">
               <div className="flex flex-col gap-4">
                 <button
                   onClick={() => scrollToSection("releases")}
