@@ -264,7 +264,7 @@ export default function App() {
           <div className="flex flex-col md:flex-row items-center gap-0 md:gap-16 lg:gap-20">
             <div className="w-full md:w-1/2 flex justify-center -mx-6 md:mx-0">
               <img
-                src={imgFotoThresholdedDithered1} // Using corrected source
+                src={imgFotoThresholdedDithered1}
                 alt="Red Mess band photo"
                 className="w-full h-auto object-contain md:max-w-xl lg:max-w-2xl block"
                 style={{ 
@@ -339,7 +339,7 @@ export default function App() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
             <div className="inline-block bg-[#cf6857] px-5 py-2">
-              <h2 className="font-['STRRETCH_SANS:Regular',sans-serif] text-[#191919] text-xl sm:text-3xl md:text-4xl uppercase">
+              <h2 className="font-['STRRETCH SANS',sans-serif] text-[#191919] text-xl sm:text-3xl md:text-4xl uppercase">
                 Latest Releases
               </h2>
             </div>
@@ -486,7 +486,7 @@ export default function App() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
             <div className="inline-block bg-[#cf6857] px-5 py-2">
-              <h2 className="font-['STRRETCH_SANS:Regular',sans-serif] text-[#191919] text-xl sm:text-2xl md:text-4xl uppercase">
+              <h2 className="font-['STRRETCH SANS',sans-serif] text-[#191919] text-xl sm:text-2xl md:text-4xl uppercase">
                 Live Performance
               </h2>
             </div>
@@ -549,7 +549,7 @@ export default function App() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
             <div className="inline-block bg-[#cf6857] px-5 py-2">
-              <h2 className="font-['STRRETCH_SANS:Regular',sans-serif] text-[#191919] text-xl sm:text-3xl md:text-4xl uppercase">
+              <h2 className="font-['STRRETCH SANS',sans-serif] text-[#191919] text-xl sm:text-3xl md:text-4xl uppercase">
                 Music Video
               </h2>
             </div>
@@ -606,7 +606,7 @@ export default function App() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
             <div className="inline-block bg-[#cf6857] px-5 py-2">
-              <h2 className="font-['STRRETCH_SANS:Regular',sans-serif] text-[#191919] text-2xl sm:text-3xl md:text-4xl uppercase">
+              <h2 className="font-['STRRETCH SANS',sans-serif] text-[#191919] text-2xl sm:text-3xl md:text-4xl uppercase">
                 Tour
               </h2>
             </div>
@@ -652,7 +652,7 @@ export default function App() {
             <div className="space-y-6 md:space-y-8">
               <div className="text-center md:text-left">
                 <div className="inline-block bg-[#cf6857] px-5 py-2">
-                  <h2 className="font-['STRRETCH_SANS:Regular',sans-serif] text-[#191919] text-2xl sm:text-3xl md:text-4xl uppercase">
+                  <h2 className="font-['STRRETCH SANS',sans-serif] text-[#191919] text-2xl sm:text-3xl md:text-4xl uppercase">
                     About
                   </h2>
                 </div>
@@ -708,7 +708,7 @@ export default function App() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
             <div className="inline-block bg-[#cf6857] px-5 py-2">
-              <h2 className="font-['STRRETCH_SANS:Regular',sans-serif] text-[#191919] text-2xl sm:text-3xl md:text-4xl uppercase">
+              <h2 className="font-['STRRETCH SANS',sans-serif] text-[#191919] text-2xl sm:text-3xl md:text-4xl uppercase">
                 Shop
               </h2>
             </div>
@@ -794,7 +794,7 @@ export default function App() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
             <div className="inline-block bg-[#cf6857] px-5 py-2">
-              <h2 className="font-['STRRETCH_SANS:Regular',sans-serif] text-[#191919] text-2xl sm:text-3xl md:text-4xl uppercase">
+              <h2 className="font-['STRRETCH SANS',sans-serif] text-[#191919] text-2xl sm:text-3xl md:text-4xl uppercase">
                 Contact
               </h2>
             </div>
