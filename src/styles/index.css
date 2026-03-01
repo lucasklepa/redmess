@@ -1,16 +1,20 @@
-/* 1. Set the default font for the entire site to Inter */
+@import './imports/fonts.css'; /* This points to the file you just edited */
+@import './tailwind.css';
+@import './theme.css';
+
+/* 1. Default font */
 body {
   font-family: 'Inter', sans-serif;
 }
 
-/* 2. Set the custom font for h1 AND h2 (since your titles are h2s) */
+/* 2. Apply STRRETCH SANS to h1 and h2 (your section titles) */
 h1, h2 {
   font-family: 'STRRETCH SANS', sans-serif !important;
   text-transform: uppercase;
   line-height: 1.1;
 }
 
-/* 3. Keep other elements clean with Inter */
+/* 3. Everything else */
 h3, h4, p, span, button {
   font-family: 'Inter', sans-serif;
 }
