@@ -49,7 +49,7 @@ function Group() {
 
 function YouTubeLogo() {
   return (
-    <a className="block cursor-pointer h-[25.937px] overflow-clip relative shrink-0 w-[116.386px]" data-name="YouTube_Logo_2017 1" href="https://www.youtube.com/@redmess8011">
+    <a className="block cursor-pointer h-[25.937px] overflow-clip relative shrink-0 w-[116.386px]" data-name="YouTube_Logo_2017 1" href="www.youtube.com/@redmessmusic">
       <Group />
     </a>
   );
@@ -75,7 +75,7 @@ function G1() {
 
 function G() {
   return (
-    <a className="cursor-pointer grid-cols-[max-content] grid-rows-[max-content] inline-grid place-items-start relative" data-name="g10" href="https://redmess.bandcamp.com/album/breathtaker">
+    <a className="cursor-pointer grid-cols-[max-content] grid-rows-[max-content] inline-grid place-items-start relative" data-name="g10" href="https://redmess.bandcamp.com/album/hi-tech-starvation">
       <G1 />
     </a>
   );
